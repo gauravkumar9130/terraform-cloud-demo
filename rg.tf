@@ -3,6 +3,6 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "example" {
-  name     = "example"
+  name     = "datarg"
   location = "West Europe"
 }
